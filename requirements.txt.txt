@@ -1,0 +1,8 @@
+streamlit
+tensorflow
+numpy
+pandas
+scikit-learn
+matplotlib
+Pillow  # For image processing
+opencv-python  # If you need OpenCV for image processing
