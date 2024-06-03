@@ -17,7 +17,7 @@ app_mode = st.sidebar.selectbox("Select Page",["Home","About","Disease Recogniti
 if(app_mode=="Home"):
     st.header("Plant Leaf Disease Detection System")
     st.image("homePage.jpg")
-    st.write("This App is developed by the help of CNN library.")
+    st.write("This App is developed by the help of CNN(Convloution Neural Networks).")
 elif(app_mode=="About"):
     st.header("About")
     st.write("This website is free and this may not give the accurate every time the result may vary due to clarity of images and also due to the fact that the model prediction may not be correct every time.")
