@@ -15,12 +15,15 @@ app_mode = st.sidebar.selectbox("Select Page",["Home","About","Disease Recogniti
 
 #Home page
 if(app_mode=="Home"):
-    st.header("Plant Disease Detection System")
-
+    st.header("Plant Leaf Disease Detection System")
+    st.image("homePage.jpg")
+    st.write("This App is developed by the help of CNN library.")
+elif(app_mode=="About"):
+    st.header("About")
 
 
 elif(app_mode=="Disease Recognition"):
-    st.header("Disease Recognition")
+    st.header("Leaf Disease Recognition")
     test_image=st.file_uploader("Choose an image:")
     if(st.button("Show image")):
         st.image(test_image,use_column_width=True)
