@@ -20,6 +20,14 @@ if(app_mode=="Home"):
     st.write("This App is developed by the help of CNN library.")
 elif(app_mode=="About"):
     st.header("About")
+    st.write("This website is free and this may not give the accurate every time the result may vary due to clarity of images and also due to the fact that the model prediction may not be correct every time.")
+    st.write("This website only suggest you the probable disease.")
+    st.write("All the copy rights are with the B12 team.")
+    st.image("SDMCET.jpg")
+    st.write("SDM College of Engineering and technology Dharwad")
+    st.write("Department of Computer Science Engineering")
+    st.write("ADITYA ANAND JOSHI")
+
 
 
 elif(app_mode=="Disease Recognition"):
