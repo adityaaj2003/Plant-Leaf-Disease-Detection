@@ -26,6 +26,7 @@ elif(app_mode=="About"):
     st.image("SDMCET.jpg")
     st.write("SDM College of Engineering and technology Dharwad")
     st.write("Department of Computer Science Engineering")
+    st.write("B12-2125")
 
 
 
@@ -75,7 +76,7 @@ elif(app_mode=="Disease Recognition"):
          'Tomato___Tomato_Yellow_Leaf_Curl_Virus',
          'Tomato___Tomato_mosaic_virus',
          'Tomato___healthy']
-         class_des = [
+        class_des = [
          'Fungal disease caused by the ascomycete fungus Venturia inaequalis',
          'Common fungal disease that affects apple trees, caused by the fungus Botryosphaeria obtusa',
          'Fungal disease caused by Gymnosporangium juniperi-virginianae',
@@ -115,4 +116,4 @@ elif(app_mode=="Disease Recognition"):
                 'The virus causes mosaic patterns on leaves, leaf distortions, stunted growth, and bronzing and marbling patterns on the fruit',
          'No disease found, the plant is healthy'
           ]
-          st.success("Model is predicting it's a {} -> {}".format(class_name[result_index], class_des[result_index]))
+        st.success("Model is predicting it's a {} -> {}".format(class_name[result_index], class_des[result_index]))
