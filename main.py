@@ -30,8 +30,7 @@ elif(app_mode=="About"):
     st.write("B12(2021-2025)")
     st.header("Developers")
     st.write("Aditya Anand Joshi")
-    st.write("LinkedIn[link](http://linkedin.com/in/aditya-joshi-822a80268)");
-    st.write("GitHub[link](https://github.com/adityaaj2003)");
+    st.write("Check out:[LinkedIn](http://linkedin.com/in/aditya-joshi-822a80268) [GitHub](https://github.com/adityaaj2003)");
     st.write("Kirankumar R D")
     st.write("Vallabh Nyamgoud")
     st.write("Varun Sultanpur")
