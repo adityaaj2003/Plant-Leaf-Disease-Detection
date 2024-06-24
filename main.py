@@ -15,7 +15,8 @@ app_mode = st.sidebar.selectbox("Select Page",["Home","About","Disease Recogniti
 
 #Home page
 if(app_mode=="Home"):
-    st.header("Plant Leaf Disease Detection System")
+    st.header("Healthy Leaves")
+    st.header("Plant Leaf Disease Detection")
     st.image("homePage.jpg")
     st.write("This App is developed by the help of CNN(Convloution Neural Networks).")
 elif(app_mode=="About"):
@@ -26,7 +27,14 @@ elif(app_mode=="About"):
     st.image("SDMCET.jpg")
     st.write("SDM College of Engineering and technology Dharwad")
     st.write("Department of Computer Science Engineering")
-    st.write("B12-2125")
+    st.write("B12(2021-2025)")
+    st.header("Developers")
+    st.write("Aditya Anand Joshi")
+    st.write("LinkedIn[link](http://linkedin.com/in/aditya-joshi-822a80268)");
+    st.write("GitHub[link](https://github.com/adityaaj2003)");
+    st.write("Kirankumar R D")
+    st.write("Vallabh Nyamgoud")
+    st.write("Varun Sultanpur")
 
 
 
